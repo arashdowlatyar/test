@@ -1,0 +1,21 @@
+Inför tjänsten som front-endutvecklare har jag fått ett arbetsprov att genomföra. Arbetsprovet innehåller följande delar för mig att utföra:
+
+- Bygga en webbsida enligt layout i bifogad .sketch-fil (finns även en PNG-export med)
+- Teknikval helt fritt - använda valfritt framework, eller inget framework alls
+- Motivera mitt teknikval
+- Sidans bakgrund är helt statisk, chatten och vänlistan är dynamiska
+- Chatt som visas som en sidebar där ett gäng fejkade kontakter listas
+- En klick på kontakter som öppnar en chatt med dem
+- De fejkade kontakterna svarar när man skriver till dem (dock inget krav på intelligens i det de svarar, det kan vara lorem ipsum eller vad som helst)
+- Ingen backend nödvändig, sidan kan byggas som 100% frontend
+
+Jag har skapat en hemsida utifrån layouten som jag fick skickad till mig i bifogad fil. Projektet motsvarar inte helt till fullo den önskade layouten men jag 
+skapade så likt som möjligt på den tid jag hade tillgodo. Jag har valt att bortse från ett framework då projektets omfattning inte var så pass stort för att 
+den skulle behöva ett. Sidan har en statisk bakgrund med en dynamisk chatt vilket motsvarar arbetsprovets kriterier, likaså kan man med ett klick både 
+stänga ner en chattkontakt samt öppna den. De fejkade kontakterna kan man både skriva till och få ett svar på. Eftersom ingen backend var nödvändigt uteslöt
+jag det helt från projektet. 
+
+Tack för ett roligt arbetsprov! Utmaningen gav mig mersmak av att utveckla, samt att jag hoppas innerligt att det motsvarade era förväntningar. 
+
+Med vänliga hälsningar,
+Arash Dowlatyar Roomiani 

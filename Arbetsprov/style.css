@@ -1,0 +1,403 @@
+body{
+    background-color: oldlace;
+    font-family: sans-serif;
+    margin: 0px;
+    transition: background-color .5s;
+
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#meny {
+    margin-left: 0px;
+    width: auto;
+    margin-top: 0px;
+}
+#meny li {
+   margin-left: 0px;
+    display: inline;
+    list-style: none;
+}
+
+#meny li a {
+    margin: 0 5px 0 0;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 50px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(66,48,1,1);
+    border-radius: 5px;
+}
+
+#meny li a:hover {
+    cursor: pointer;
+    background: skyblue;
+    color: rgba(0,0,0,1);
+}
+
+#meny a:link, #meny a:visited {
+    margin-left: 0px;
+    margin-top: 0px;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+#meny a:active {
+    color: rgba(250,191,12,1);
+}
+
+#meny a#current {
+    background: rgba(85,137,48,1);
+}
+
+li {
+    display: inline;
+}  
+
+#meny ul {
+    margin: -17px 0px -15px -15px;
+
+}
+
+ul {
+    width: auto;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    background: skyblue;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.50);
+}
+.sidhuvud {
+	width: 1263px;
+	height: 70px;
+}
+
+#wrapper {
+    width: 480px;
+	text-align: center;
+	height: auto;
+	direction: ltr;
+	color: black;
+    margin: auto; 
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: oldlace;;
+    border: 1px solid oldlace;
+    border-radius: 10px;
+
+}
+.chat_box{
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: white;
+    width: 250px;
+    border-radius: 5px 5px 0px 0px;
+} /* min stilning på chattrutan */
+
+.chat_head{
+    background: skyblue;
+    padding: 15px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.chat_body{
+     height: 480px;
+}
+
+.msg_box {
+    cursor: pointer;
+    background: white;
+    width: 250px;
+    position: fixed;
+    bottom: -5px;
+    right: 0px;
+    background: white;
+    width: 250px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.msg_box_suarez {
+    cursor: pointer;
+    background: white;
+    width: 250px;
+    position: fixed;
+    bottom: -5px;
+    left: 450px;
+    background: white;
+    width: 250px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.msg_box_neymar {
+    cursor: pointer;
+    background: white;
+    width: 250px;
+    position: fixed;
+    bottom: -5px;
+    left: 150px;
+    background: white;
+    width: 250px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.msg_box_puyol {
+    cursor: pointer;
+    background: white;
+    width: 250px;
+    position: fixed;
+    bottom: -5px;
+    left: 150px;
+    background: white;
+    width: 250px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.msg_head{
+    background: #2980b9;
+    padding: 15px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.msg_head_suarez{
+    background: #2980b9;
+    padding: 15px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.msg_head_neymar{
+    background: #2980b9;
+    padding: 15px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.msg_head_puyol{
+    background: #2980b9;
+    padding: 15px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+.msg_body{
+    height: 250px; 
+    font-size: 12px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.msg_body_suarez{
+    height: 250px; 
+    font-size: 12px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.msg_body_neymar{
+    height: 250px; 
+    font-size: 12px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.msg_body_puyol{
+    height: 250px; 
+    font-size: 12px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.close{
+    float: right;
+}
+
+.close_suarez{
+    float: right;
+}
+
+.close_neymar{
+    float: right;
+}
+
+.close_puyol{
+    float: right;
+}
+.msg_input{
+    border: transparent;
+    border-top: 1px solid #bdc3c7;
+    width: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.msg_input_suarez{
+    border: transparent;
+    border-top: 1px solid #bdc3c7;
+    width: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.msg_input_neymar{
+    border: transparent;
+    border-top: 1px solid #bdc3c7;
+    width: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.msg_input_puyol{
+    border: transparent;
+    border-top: 1px solid #bdc3c7;
+    width: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.messi{
+    cursor: pointer;
+    padding: 20px 25px;
+    position: relative;
+    
+}  
+
+.suarez{
+    cursor: pointer;
+    padding: 20px 25px;
+    position: relative;
+}
+
+.neymar{
+    cursor: pointer;
+    padding: 20px 25px;
+    position: relative;
+}
+
+.puyol{
+    cursor: pointer;
+    padding: 20px 25px;
+    position: relative;
+}
+
+messi:hover{
+    background: #f8f8f8;
+}
+
+suarez:hover{
+    background: #f8f8f8;
+}
+
+neymar:hover{
+    background: #f8f8f8;
+}
+
+puyol:hover{
+    background: #f8f8f8;
+}
+
+.messi:before{
+    content: "";
+    position: absolute;
+    background: #f1c40f;
+    width: 10px;
+    height: 10px;
+    left: 8px;
+    top: 24px;
+    border-radius: 5px;
+} /* Får en cirkel framför kontakten för att visa om personen är tillgänglig.*/
+
+.suarez:before{
+    content: "";
+    position: absolute;
+    background: #e67e22;
+    width: 10px;
+    height: 10px;
+    left: 8px;
+    top: 24px;
+    border-radius: 5px;
+} /* Får en cirkel framför kontakten för att visa om personen är tillgänglig.*/
+
+.neymar:before{
+    content: "";
+    position: absolute;
+    background: #c0392b;
+    width: 10px;
+    height: 10px;
+    left: 8px;
+    top: 24px;
+    border-radius: 5px;
+} /* Får en cirkel framför kontakten för att visa om personen är tillgänglig.*/
+
+.puyol:before{
+    content: "";
+    position: absolute;
+    background: #2ecc71;
+    width: 10px;
+    height: 10px;
+    left: 8px;
+    top: 24px;
+    border-radius: 5px;
+} /* Får en cirkel framför kontakten för att visa om personen är tillgänglig.*/
+
+.msg_a{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-height: 15px;
+    padding: 15px;
+    background: #3498db;
+    position:relative;
+    border-radius: 5px;
+}
+
+.msg_a:before{
+    content:"";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: -29px;
+    top: 10px;
+    border: 15px solid;
+    border-color: transparent transparent transparent #3498db;
+}
+
+.msg_b{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-height: 15px;
+    padding: 15px;
+    background: lightgray;
+    position:relative;
+    border-radius: 5px;
+}
+
+.msg_b:before{
+    content:"";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: -29px;
+    top: 10px;
+    border: 15px solid;
+    border-color: transparent lightgray transparent transparent;
+}
